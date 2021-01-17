@@ -1,0 +1,17 @@
+@import 'media-queries';
+@import 'navbar';
+@import 'hero';
+body {
+    background: $light;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    text-shadow: 0px 1px 5px $orangeRed;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
